@@ -94,7 +94,7 @@ export default function Home() {
 						A Espiritualidade da Fraternidade
 					</h2>
 					<p className="text-center text-[#89888B]">
-						"Fiz-me tudo para todos, afim de salvar a todos"
+						&quot;Fiz-me tudo para todos, afim de salvar a todos&quot;
 					</p>
 					<p className="text-center text-[#89888B]">(1 Cor 9, 22)</p>
 					<ul className="my-4 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 md:gap-6 px-8 2xl:px-40">
