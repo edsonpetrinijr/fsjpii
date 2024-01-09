@@ -11,7 +11,7 @@ export default function Home() {
 				<div className="mb-6 relative overflow-hidden shadow-lg">
 					<div className="flex w-max transition-transform duration-700">
 						<img
-							className="w-screen h-64 md:h-72 object-cover object-top opacity-40"
+							className="w-screen h-72 object-cover object-top opacity-40"
 							src="./banner.webp"
 							alt=""
 						/>
@@ -67,7 +67,7 @@ export default function Home() {
 					</ul>
 				</div>
 
-				<div className="mt-6 w-full px-40 py-8 bg-gradient-to-l from-fuchsia-600 to-amber-500 justify-center items-center gap-8 inline-flex">
+				<div className="mt-6 w-full px-8 md:px-40 py-8 bg-gradient-to-l from-fuchsia-600 to-amber-500 justify-center items-center gap-8 inline-flex">
 					<div className="text-center text-xl font-normal leading-12">
 						<span className="font-normal">Temos a missão de </span>
 						<span className="font-bold">Santificar o Clero</span>
