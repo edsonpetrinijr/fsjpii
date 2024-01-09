@@ -19,7 +19,7 @@ export default function Footer() {
 			<hr className="w-full border-[#da9700]" />
 
 			<div
-				className="flex flex-col justify-center items-center py-4"
+				className="flex flex-col justify-center items-center px-6 py-4"
 				style={{
 					background:
 						"linear-gradient(0deg, rgba(20, 12, 15, 0.65) 50%, rgba(43, 30, 0, 0.65) 100%)",
@@ -82,9 +82,9 @@ export default function Footer() {
 					</li>
 				</ul>
 
-				<p>ASSOCIAÇÃO FRATERNIDADE SÃO JOÃO PAULO II © {year}</p>
-				<p>CNPJ 21.947.519/0001-51</p>
-				<p>AV. MASCOTE, 1135</p>
+				<p className="text-center">ASSOCIAÇÃO FRATERNIDADE SÃO JOÃO PAULO II</p>
+				<p className="text-center">CNPJ 21.947.519/0001-51</p>
+				<p className="text-center">AV. MASCOTE, 1135</p>
 			</div>
 		</footer>
 	);

@@ -48,8 +48,10 @@ export default function Home() {
 				</div>
 
 				<div>
-					<h2 className="text-center text-3xl">Eventos da Fraternidade</h2>
-					<ul className="my-6 grid grid-cols-1 md:grid-cols-2 gap-7 md:gap-10 px-12 2xl:px-72">
+					<h2 className="text-center text-2xl md:text-3xl">
+						Eventos da Fraternidade
+					</h2>
+					<ul className="my-6 grid grid-cols-1 md:grid-cols-2 gap-5 md:gap-10 px-8 2xl:px-72">
 						<EventCard
 							imageUrl="/acampamentoFraternidade.webp"
 							location="Canção Nova"
