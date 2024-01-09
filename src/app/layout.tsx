@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Noto_Serif } from "next/font/google";
 import "./globals.css";
+import Head from "next/head";
 
 const notoSerif = Noto_Serif({
 	weight: ["400", "700"],
@@ -20,10 +21,10 @@ export default function RootLayout({
 }) {
 	return (
 		<html lang="en">
-			<head>
+			<Head>
 				<link rel="icon" href="/favicon.png" />
 				<title>Fraternidade São João Paulo II</title>
-			</head>
+			</Head>
 			<body className={notoSerif.className}>{children}</body>
 		</html>
 	);

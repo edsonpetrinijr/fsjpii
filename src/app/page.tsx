@@ -10,8 +10,10 @@ export default function Home() {
 
 			<main className="my-6 md:my-10">
 				<div className="mb-6 relative overflow-hidden shadow-lg">
+					<div className="absolute w-full h-full bg-black bg-opacity-60"></div>
+
 					<img
-						className="w-screen h-72 object-cover object-top opacity-40"
+						className="w-screen h-72 object-cover object-top opacity-100"
 						src="/banner.webp"
 						alt=""
 					/>
@@ -42,8 +44,6 @@ export default function Home() {
 							</a>
 						</div>
 					</div>
-
-					<div className="absolute w-full h-full bg-zinc-900 bg-opacity-80"></div>
 				</div>
 
 				<div>
