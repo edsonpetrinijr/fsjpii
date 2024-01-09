@@ -10,7 +10,7 @@ export default function Header() {
 	return (
 		<header>
 			<div
-				className="flex justify-center items-center gap-6 px-8 py-4"
+				className="flex justify-center items-center gap-4 md:gap-6 px-8 py-4"
 				style={{
 					background:
 						"linear-gradient(180deg, rgba(20, 12, 15, 0.65) 50%, rgba(43, 30, 0, 0.65) 100%)",
