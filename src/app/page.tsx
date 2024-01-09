@@ -19,7 +19,7 @@ export default function Home() {
 
 					<div className="absolute z-10 top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-full px-4 text-center">
 						<h1 className="text-3xl md:text-4xl lg:text-5xl font-bold uppercase">
-							"Totus Tuus Iesu Per Mariam"
+							&quot;Totus Tuus Iesu Per Mariam&quot;
 						</h1>
 						<p className="text-base md:text-lg lg:text-xl font-normal mt-2">
 							O desejo de Ser todo de Jesus por meio de Maria e em todas as
